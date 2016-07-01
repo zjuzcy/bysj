@@ -1,0 +1,102 @@
+[ 2016-04-04T13:50:36+08:00 ] 127.0.0.1 /MyDemo/index.php/__URL__/Home/Index/login3judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载模块:__URL__
+
+[ 2016-04-04T13:51:18+08:00 ] 127.0.0.1 /MyDemo/index.php/login3judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+ERR: 无法加载模块:Login3judge
+
+[ 2016-04-04T13:51:35+08:00 ] 127.0.0.1 /MyDemo/index.php/login3judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+ERR: 无法加载模块:Login3judge
+
+[ 2016-04-04T13:52:58+08:00 ] 127.0.0.1 /MyDemo/index.php/login3judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+ERR: 无法加载模块:Login3judge
+
+[ 2016-04-04T13:53:02+08:00 ] 127.0.0.1 /MyDemo/index.php/login3judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+ERR: 无法加载模块:Login3judge
+
+[ 2016-04-04T13:53:38+08:00 ] 127.0.0.1 /MyDemo/index.php/login3judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+ERR: 无法加载模块:Login3judge
+
+[ 2016-04-04T13:53:42+08:00 ] 127.0.0.1 /MyDemo/index.php/login3judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 无法加载模块:Login3judge
+
+[ 2016-04-04T13:54:48+08:00 ] 127.0.0.1 /MyDemo/index.php/login3judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001536s ]
+ERR: 无法加载模块:Login3judge
+
+[ 2016-04-04T13:55:52+08:00 ] 127.0.0.1 /MyDemo/index.php/login3judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+ERR: 无法加载模块:Login3judge
+
+[ 2016-04-04T14:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-04T14:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/05.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-04T14:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-04T14:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-04T14:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-04T14:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/08.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-04T14:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/07.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-04T14:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Public
+

@@ -1,0 +1,306 @@
+[ 2016-04-02T19:04:38+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:04:38+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:04:38+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-02T19:04:38+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:04:38+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/05.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:04:38+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/07.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:04:38+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/08.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:05:28+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-02T19:05:28+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:05:28+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:05:28+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/08.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:05:28+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/05.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:05:28+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/07.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:05:28+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:05:28+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:24+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-02T19:06:24+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:24+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001581s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:24+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/05.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:24+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/07.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:24+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/08.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:43+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:43+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:43+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-02T19:06:43+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:43+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:43+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/07.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:06:43+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/05.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-02T19:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/05.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/07.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:07:04+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/08.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:09:16+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-02T19:09:16+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:09:16+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003922s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:09:16+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:09:16+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/08.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:09:16+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/05.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:09:16+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:13:11+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:13:11+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:13:12+08:00 ] 127.0.0.1 /MyDemo/index.php/Public/proImages/hos_images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-02T19:13:12+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:13:12+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:13:12+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/05.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:13:12+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/07.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Img
+
+[ 2016-04-02T19:13:12+08:00 ] 127.0.0.1 /MyDemo/index.php/img/portfolio/08.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Img
+

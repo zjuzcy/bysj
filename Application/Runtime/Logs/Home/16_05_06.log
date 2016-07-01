@@ -1,0 +1,3375 @@
+[ 2016-05-06T10:22:39+08:00 ] 127.0.0.1 /MyDemo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010940s ]
+SQL: SHOW COLUMNS FROM `hos_user3` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `hos_hospital` [ RunTime:0.0234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user3` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_hospital` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000945s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007285s ]
+
+[ 2016-05-06T10:22:40+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-05-06T10:22:49+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0243s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2016-05-06T10:22:52+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/hos_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SELECT *FROM hos_hospital WHERE id=1 [ RunTime:0.0019s ]
+
+[ 2016-05-06T10:24:22+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0166s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2016-05-06T10:35:55+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008996s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0135s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006007s ]
+
+[ 2016-05-06T10:35:57+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T10:36:59+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0144s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2016-05-06T10:37:00+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T10:38:57+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0233s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-05-06T10:38:59+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T10:45:05+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0221s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-05-06T10:45:06+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T10:54:26+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0235s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-05-06T10:54:27+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0070s ]
+
+[ 2016-05-06T10:54:28+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:55:28+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0154s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-05-06T10:55:30+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T10:55:31+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:55:31+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:55:32+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:55:32+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:55:32+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:55:32+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:55:50+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0154s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2016-05-06T10:55:51+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/hos_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SELECT *FROM hos_hospital WHERE id=1 [ RunTime:0.0061s ]
+
+[ 2016-05-06T10:55:54+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T10:55:55+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:56:53+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0210s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-05-06T10:56:54+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T10:56:55+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:58:13+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0216s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2016-05-06T10:58:14+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T10:58:15+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:58:24+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0225s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-05-06T10:58:37+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0244s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-05-06T10:58:39+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T10:58:40+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-05-06T10:59:15+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0243s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-05-06T10:59:17+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/hos_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SELECT *FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T10:59:17+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T10:59:18+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0004s ]
+
+[ 2016-05-06T11:06:19+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0215s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-05-06T11:06:20+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T11:06:21+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T11:06:24+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/go_change_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `hos_department` [ RunTime:0.0173s ]
+NOTIC: [8] Undefined index: validate C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hos_department` SET `content`='科室概况 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;是省临床重点培育专科，六安市临床医学重点学科，安医大硕士点。拥有3个病区和神经电生理检查室，设病床180张。有医护技人员68人，高级职称9人，有硕士研究生学历13人、博士学位1人。 
+科室特色 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;脑血管病：开展对各种脑血管病的病因学检查、颅内血肿微创清除术治疗脑出血、弹簧圈填塞术治疗颅内动脉瘤、超选择性动脉溶栓治疗急性脑梗死、动脉内成形（动脉内球囊和支架）技术治疗颈内动脉和颅内动脉狭窄。神经内科联合全院其他相关科室开展组织化卒中治疗，包括对卒中患者的院前急救、卒中绿色通道、卒中急性期介入治疗、危重患者的抢救和监护、急性期和恢复期康复治疗。近年来获得省、市级科技进步奖4项：1.“介入栓塞治疗颅内动脉瘤”、2.“血管内支架成形术治疗颈动脉狭窄”、3.“简易定向锥颅碎吸术治疗高血压性脑出血”、4.“超选择性动脉溶栓治疗急性脑梗死”。  
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;神经－肌肉疾病：多发性周围神经（根）病、单神经病、重症肌无力、内分泌疾病相关肌病、多发性肌炎等。 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;中枢神经脱髓鞘性疾病：多发性硬化、视神经脊髓炎、亚急性播散性脑脊髓膜炎等。 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;神经系统变性性疾病：帕金森、痴呆、小脑性共济失调、血压调节障碍。 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;癫痫：病因诊断、分型、症状控制、癫痫持续状态的抢救治疗。 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;中枢神经系统感染性疾病：病毒性脑炎、细菌性脑脊髓膜炎、中枢经系统真菌感染、神经系统寄生虫病。 
+科室专家  
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;金  平：科主任，副主任医师，安医大兼职副教授。 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;陈  然：神经内科副主任兼一病区主任，副主任医师。 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;翟宏江：神经内科副主任兼二病区主任，主任医师。 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;谭守文：神经内科副主任兼三病区主任，主任医师，安医大兼职教授，安徽省神经病学分会委员、市神经病学分会主委。
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;胡文霞：神经内科二病区副主任，副主任医师。 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;严兴亚：神经内科三病区副主任医师。 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;丛光燕：神经内科三病区副主任医师。 
+返聘专家
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;胡志涛，主任医师。
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;蔡  雄，主任医师。
+科室电话 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;神经内科一病区    医办3338738    护办3338725 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;神经内科二病区    医办3338424    护办3338425 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;神经内科三病区    医办3338771    护办3338741 
+科室位置
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;神经内科一病区      内科楼八楼 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;神经内科二病区      内科楼七楼 
+&amp;lt;br&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;神经内科三病区      内科楼六楼 
+' WHERE `id` = 1 [ RunTime:0.0050s ]
+
+[ 2016-05-06T11:06:28+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T11:22:25+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0172s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-05-06T11:22:26+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0014s ]
+
+[ 2016-05-06T11:23:33+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0185s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-05-06T11:23:34+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T11:33:11+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0137s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-05-06T11:33:12+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T11:33:19+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/go_Add_department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `hos_department` [ RunTime:0.0200s ]
+SQL: INSERT INTO `hos_department` (`name`,`category`,`hos_id`) VALUES ('测试','外科','1') [ RunTime:0.0041s ]
+
+[ 2016-05-06T11:35:44+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0230s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-05-06T11:35:45+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T11:35:51+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/go_Add_department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `hos_department` [ RunTime:0.0164s ]
+NOTIC: [8] Undefined index: validate C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `hos_department` (`name`,`category`,`hos_id`) VALUES ('测试','内科','1') [ RunTime:0.0005s ]
+
+[ 2016-05-06T11:36:49+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0232s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-05-06T11:36:50+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T11:36:56+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/go_Add_department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `hos_department` [ RunTime:0.0239s ]
+NOTIC: [8] Undefined index: validate C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `hos_department` (`name`,`category`,`hos_id`,`create_time`,`content`) VALUES ('测试','其他门类','1','1462505816','待更新') [ RunTime:0.0008s ]
+
+[ 2016-05-06T11:39:25+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0260s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-05-06T11:39:26+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T11:39:32+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/go_Add_department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `hos_department` [ RunTime:0.0236s ]
+NOTIC: [8] Undefined index: validate C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `hos_department` (`name`,`category`,`hos_id`,`create_time`,`content`) VALUES ('测试','内科','1','1462505972','待更新') [ RunTime:0.0005s ]
+
+[ 2016-05-06T11:39:33+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T11:39:36+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SELECT * FROM hos_department WHERE id=40 [ RunTime:0.0006s ]
+
+[ 2016-05-06T11:42:25+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0217s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-05-06T11:42:27+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0009s ]
+
+[ 2016-05-06T11:44:54+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0166s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-05-06T11:44:55+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T11:45:38+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0250s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-05-06T11:45:39+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T11:46:37+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0224s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-05-06T11:46:38+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T11:47:14+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0236s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-05-06T11:47:15+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T11:49:21+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0194s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-05-06T11:49:22+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T11:51:27+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0004s ]
+
+[ 2016-05-06T11:51:37+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T11:51:39+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/hos_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SELECT *FROM hos_hospital WHERE id=1 [ RunTime:0.0124s ]
+
+[ 2016-05-06T12:51:34+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013443s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0245s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008164s ]
+
+[ 2016-05-06T12:51:35+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0069s ]
+
+[ 2016-05-06T12:51:37+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T12:51:50+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SELECT * FROM hos_department WHERE id=3 [ RunTime:0.0012s ]
+
+[ 2016-05-06T12:51:52+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SELECT * FROM hos_department WHERE id=9 [ RunTime:0.0006s ]
+
+[ 2016-05-06T12:51:55+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SELECT * FROM hos_department WHERE id=40 [ RunTime:0.0006s ]
+
+[ 2016-05-06T12:53:17+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T12:54:37+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0178s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-05-06T12:54:39+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/hos_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SELECT *FROM hos_hospital WHERE id=1 [ RunTime:0.0065s ]
+
+[ 2016-05-06T12:54:41+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0010s ]
+
+[ 2016-05-06T12:54:42+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T12:54:47+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SELECT * FROM hos_department WHERE id=40 [ RunTime:0.0007s ]
+
+[ 2016-05-06T12:54:55+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SELECT * FROM hos_department WHERE id=40 [ RunTime:0.0005s ]
+
+[ 2016-05-06T12:55:00+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SELECT * FROM hos_department WHERE id=3 [ RunTime:0.0006s ]
+
+[ 2016-05-06T12:55:33+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0144s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-05-06T12:55:36+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T12:55:37+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T12:55:40+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SELECT * FROM hos_department WHERE id=2 [ RunTime:0.0006s ]
+
+[ 2016-05-06T12:56:36+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0228s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-05-06T12:56:37+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T12:56:38+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T12:56:44+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SELECT * FROM hos_department WHERE id=2 [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:00:06+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0228s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-05-06T13:00:07+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T13:00:08+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T13:00:13+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SELECT * FROM hos_department WHERE id=2 [ RunTime:0.0006s ]
+
+[ 2016-05-06T13:00:39+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0241s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-05-06T13:00:40+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T13:00:41+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:00:44+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SELECT * FROM hos_department WHERE id=3 [ RunTime:0.0008s ]
+
+[ 2016-05-06T13:04:45+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0226s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-05-06T13:04:46+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T13:04:47+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T13:05:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SELECT * FROM hos_department WHERE id=2 [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:05:07+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SELECT * FROM hos_department WHERE id=3 [ RunTime:0.0007s ]
+
+[ 2016-05-06T13:05:27+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SELECT * FROM hos_department WHERE id=3 [ RunTime:0.0006s ]
+
+[ 2016-05-06T13:05:40+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0154s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-05-06T13:05:41+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0010s ]
+
+[ 2016-05-06T13:05:42+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SELECT * FROM hos_department WHERE id=2 [ RunTime:0.0006s ]
+
+[ 2016-05-06T13:05:48+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T13:05:51+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SELECT * FROM hos_department WHERE id=9 [ RunTime:0.0006s ]
+
+[ 2016-05-06T13:05:54+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SELECT * FROM hos_department WHERE id=3 [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:11:03+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0151s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-05-06T13:11:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0011s ]
+
+[ 2016-05-06T13:11:05+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:11:37+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0236s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-05-06T13:11:38+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0009s ]
+
+[ 2016-05-06T13:11:39+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T13:11:50+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/go_Add_doctor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `hos_user2` [ RunTime:0.0244s ]
+NOTIC: [8] Undefined index: validate C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: email C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `hos_user2` (`name`,`depart_id`,`password`,`place`,`create_time`,`logo`,`stauts`) VALUES ('张三','1','202cb962ac59075b964b07152d234b70','主任','1462511510','331674560@qq.com','1') [ RunTime:0.0017s ]
+
+[ 2016-05-06T13:13:11+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0146s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2016-05-06T13:13:12+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T13:13:12+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/get_depart_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SELECT * FROM hos_department WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:13:23+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/go_Add_doctor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `hos_user2` [ RunTime:0.0253s ]
+NOTIC: [8] Undefined index: validate C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: email C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `hos_user2` (`name`,`depart_id`,`password`,`place`,`create_time`,`logo`,`stauts`,`email`,`introduction`) VALUES ('张三','1','202cb962ac59075b964b07152d234b70','主任','1462511603','Public/images/user2logo/0.jpg','1','331674560@qq.com','待更新') [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:15:57+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0236s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-05-06T13:15:58+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/hos_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SELECT *FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:15:59+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T13:16:51+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0163s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-05-06T13:16:53+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/hos_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SELECT *FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:16:54+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T13:17:25+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0246s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-05-06T13:17:27+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T13:20:48+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0214s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-05-06T13:41:13+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0229s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-05-06T13:41:14+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/doctor_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SELECT a.id,a.create_time,a.`name`,a.`password`,a.place,a.stauts,b.`name` departname FROM hos_user2 a,hos_department b WHERE a.depart_id=b.id AND b.hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T13:42:05+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0241s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-05-06T13:42:06+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/doctor_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SELECT a.id,a.create_time,a.`name`,a.`password`,a.place,a.stauts,b.`name` departname FROM hos_user2 a,hos_department b WHERE a.depart_id=b.id AND b.hos_id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T13:48:21+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0264s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-05-06T13:48:22+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/doctor_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SELECT a.id,a.create_time,a.`name`,a.`password`,a.place,a.stauts,b.`name` departname FROM hos_user2 a,hos_department b WHERE a.depart_id=b.id AND b.hos_id=1 [ RunTime:0.0007s ]
+
+[ 2016-05-06T13:48:23+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/change_doctor_B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: UPDATE hos_user2 set stauts=0 WHERE id='1000' [ RunTime:0.0006s ]
+
+[ 2016-05-06T13:48:24+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/doctor_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SELECT a.id,a.create_time,a.`name`,a.`password`,a.place,a.stauts,b.`name` departname FROM hos_user2 a,hos_department b WHERE a.depart_id=b.id AND b.hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T13:48:25+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/change_doctor_A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: UPDATE hos_user2 set stauts=1 WHERE id='1000' [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:48:26+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/doctor_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SELECT a.id,a.create_time,a.`name`,a.`password`,a.place,a.stauts,b.`name` departname FROM hos_user2 a,hos_department b WHERE a.depart_id=b.id AND b.hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T13:48:27+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/change_doctor_B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: UPDATE hos_user2 set stauts=0 WHERE id='1000' [ RunTime:0.0006s ]
+
+[ 2016-05-06T13:48:28+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/doctor_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SELECT a.id,a.create_time,a.`name`,a.`password`,a.place,a.stauts,b.`name` departname FROM hos_user2 a,hos_department b WHERE a.depart_id=b.id AND b.hos_id=1 [ RunTime:0.0009s ]
+
+[ 2016-05-06T13:48:29+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/change_doctor_A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: UPDATE hos_user2 set stauts=1 WHERE id='1000' [ RunTime:0.0005s ]
+
+[ 2016-05-06T13:48:30+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/doctor_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SELECT a.id,a.create_time,a.`name`,a.`password`,a.place,a.stauts,b.`name` departname FROM hos_user2 a,hos_department b WHERE a.depart_id=b.id AND b.hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T13:51:29+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0237s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2016-05-06T13:51:43+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/hos_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SELECT *FROM hos_hospital WHERE id=1 [ RunTime:0.0012s ]
+
+[ 2016-05-06T13:51:45+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/depart_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SELECT * FROM hos_department WHERE hos_id=1 [ RunTime:0.0015s ]
+
+[ 2016-05-06T13:51:47+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/doctor_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SELECT a.id,a.create_time,a.`name`,a.`password`,a.place,a.stauts,b.`name` departname FROM hos_user2 a,hos_department b WHERE a.depart_id=b.id AND b.hos_id=1 [ RunTime:0.0015s ]
+
+[ 2016-05-06T13:55:51+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0238s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-05-06T13:55:52+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/User2View/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+ERR: 非法操作:Add_logo
+
+[ 2016-05-06T13:55:53+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/User2View/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+ERR: 非法操作:Add_logo
+
+[ 2016-05-06T13:56:12+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0179s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-05-06T13:56:13+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hosbysj.hos_pital' doesn't exist
+
+[ 2016-05-06T13:56:14+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hosbysj.hos_pital' doesn't exist
+
+[ 2016-05-06T13:56:14+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hosbysj.hos_pital' doesn't exist
+
+[ 2016-05-06T13:57:08+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0167s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-05-06T13:57:09+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hosbysj.hos_pital' doesn't exist
+
+[ 2016-05-06T13:57:59+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0239s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-05-06T13:58:00+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hosbysj.hos_pital' doesn't exist
+
+[ 2016-05-06T13:58:00+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hosbysj.hos_pital' doesn't exist
+
+[ 2016-05-06T13:58:01+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hosbysj.hos_pital' doesn't exist
+
+[ 2016-05-06T13:58:18+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0260s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-05-06T13:58:32+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0265s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-05-06T13:58:32+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hosbysj.hos_pital' doesn't exist
+
+[ 2016-05-06T13:58:33+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hosbysj.hos_pital' doesn't exist
+
+[ 2016-05-06T13:58:33+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hosbysj.hos_pital' doesn't exist
+
+[ 2016-05-06T13:59:21+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0149s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-05-06T13:59:22+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:01:12+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0192s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2016-05-06T14:01:14+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:01:58+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0165s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-05-06T14:01:59+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T14:02:17+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0229s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-05-06T14:02:17+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:12:06+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0275s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-05-06T14:12:07+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:12:18+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/shangchuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'logo' in 'field list'
+
+[ 2016-05-06T14:12:21+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0233s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-05-06T14:12:22+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:12:40+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0237s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-05-06T14:12:41+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T14:12:47+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/shangchuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE hos_hospital SET src='../../../Public/proImages/hos_images/01.jpg' WHERE id=1 [ RunTime:0.0004s ]
+
+[ 2016-05-06T14:12:49+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0258s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-05-06T14:12:50+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:13:27+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/shangchuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE hos_hospital SET src='../../../Public/proImages/hos_images/01.jpg' WHERE id=1 [ RunTime:0.0004s ]
+
+[ 2016-05-06T14:13:58+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2016-05-06T14:14:04+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0249s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-05-06T14:14:17+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0256s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-05-06T14:14:18+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:14:36+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0160s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-05-06T14:14:38+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:14:43+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0169s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-05-06T14:14:44+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T14:14:58+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0255s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-05-06T14:14:58+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:15:07+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/shangchuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE hos_hospital SET src='../../../Public/proImages/hos_images/01.jpg' WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:15:10+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0163s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-05-06T14:15:11+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T14:15:16+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/shangchuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE hos_hospital SET src='../../../Public/proImages/hos_images/01.jpg' WHERE id=1 [ RunTime:0.0003s ]
+
+[ 2016-05-06T14:15:19+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0241s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-05-06T14:15:19+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T14:15:24+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/shangchuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\WebAppDemo\MyDemo\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE hos_hospital SET src='../../../Public/proImages/hos_images/01.jpg' WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:15:26+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0006s ]
+
+[ 2016-05-06T14:15:28+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0221s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-05-06T14:15:29+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T14:15:32+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/doctor_ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SELECT a.id,a.create_time,a.`name`,a.`password`,a.place,a.stauts,b.`name` departname FROM hos_user2 a,hos_department b WHERE a.depart_id=b.id AND b.hos_id=1 [ RunTime:0.0008s ]
+
+[ 2016-05-06T14:15:32+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0004s ]
+
+[ 2016-05-06T14:16:16+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login1judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0229s ]
+SQL: SELECT `username`,`password`,`st`,`hos_id` FROM `hos_user1` WHERE `username` = 'user1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-05-06T14:16:17+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/AdminView/Add_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SELECT * FROM hos_hospital WHERE id=1 [ RunTime:0.0005s ]
+
+[ 2016-05-06T16:54:40+08:00 ] 127.0.0.1 /MyDemo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011625s ]
+SQL: SHOW COLUMNS FROM `hos_user3` [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `hos_hospital` [ RunTime:0.0207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user3` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_hospital` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007327s ]
+
+[ 2016-05-06T16:54:51+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/mail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [2] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\WebAppDemo\MyDemo\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003243s ]
+
+[ 2016-05-06T16:54:52+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/mail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: [2] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\WebAppDemo\MyDemo\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002272s ]
+
+[ 2016-05-06T16:59:15+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/mail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+NOTIC: [2] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\WebAppDemo\MyDemo\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002977s ]
+
+[ 2016-05-06T17:02:09+08:00 ] 127.0.0.1 /MyDemo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `hos_user3` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `hos_hospital` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user3` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_hospital` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-05-06T17:02:15+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/mail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [2] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\WebAppDemo\MyDemo\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003273s ]
+
+[ 2016-05-06T17:05:16+08:00 ] 127.0.0.1 /MyDemo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `hos_user3` [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `hos_hospital` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `hos_user2` [ RunTime:0.0193s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0215s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user3` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user2` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user1` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_hospital` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-05-06T17:05:26+08:00 ] 127.0.0.1 /MyDemo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `hos_user3` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `hos_hospital` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `hos_user2` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user3` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user2` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user1` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_hospital` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2016-05-06T17:09:39+08:00 ] 127.0.0.1 /MyDemo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `hos_user3` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `hos_hospital` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `hos_user2` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user3` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user2` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user1` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_hospital` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-05-06T17:09:41+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-05-06T17:09:46+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login2judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `hos_user2` [ RunTime:0.0236s ]
+SQL: SELECT `id`,`name`,`introduction`,`create_time`,`logo`,`email`,`stauts`,`password`,`place` FROM `hos_user2` WHERE `id` = 1005 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) count FROM hos_yuyue WHERE isright=0 AND doc_id='1005' [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) count FROM hos_liuyan WHERE st2=0 AND doc_id='1005' [ RunTime:0.0115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-05-06T17:09:48+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `hos_user3` [ RunTime:0.0212s ]
+SQL: SHOW COLUMNS FROM `hos_hospital` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `hos_user2` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user3` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user2` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user1` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_hospital` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-05-06T17:09:48+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/Public/proImages/hos_images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-05-06T17:09:48+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/Public/proImages/hos_images/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-05-06T17:09:48+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/Public/proImages/hos_images/06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-05-06T17:09:48+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/Public/proImages/hos_images/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-05-06T17:09:48+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/Public/proImages/hos_images/07.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-05-06T17:11:41+08:00 ] 127.0.0.1 /MyDemo/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `hos_user3` [ RunTime:0.0173s ]
+SQL: SHOW COLUMNS FROM `hos_hospital` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `hos_user2` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user3` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user2` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user1` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_hospital` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-05-06T17:11:57+08:00 ] 127.0.0.1 /MyDemo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `hos_user3` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `hos_hospital` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `hos_user2` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `hos_user1` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user3` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user2` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_user1` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hos_hospital` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-05-06T17:12:02+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-05-06T17:12:07+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login2judge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `hos_user2` [ RunTime:0.0244s ]
+SQL: SELECT `id`,`name`,`introduction`,`create_time`,`logo`,`email`,`stauts`,`password`,`place` FROM `hos_user2` WHERE `id` = 1005 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) count FROM hos_yuyue WHERE isright=0 AND doc_id='1005' [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) count FROM hos_liuyan WHERE st2=0 AND doc_id='1005' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-05-06T17:12:11+08:00 ] 127.0.0.1 /MyDemo/index.php/Home/Index/login2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
